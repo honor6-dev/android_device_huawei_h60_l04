@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_huawei_h60-common",
+    "target_path": "device/huawei/h60-common"
+  }
+]

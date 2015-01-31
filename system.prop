@@ -1,9 +1,6 @@
 # Make keys in CWM repeatable
 ro.cwm.enable_key_repeat=true
 
-# Graphics
-ro.sf.lcd_density=320
-
 # THIS NEEDS TO BE CLEANED UP
 ro.config.mmu_en=1
 debug.hwc_dump_en=1

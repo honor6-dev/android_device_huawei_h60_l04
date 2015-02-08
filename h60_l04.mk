@@ -21,5 +21,9 @@ LOCAL_PATH := device/huawei/h60_l04
 
 DEVICE_PACKAGE_OVERLAYS += device/huawei/h60_l04/overlay
 
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.ril_class=HuaweiRIL
+
 # Include non-opensource parts
 $(call inherit-product, vendor/huawei/h60_l04/h60_l04-vendor.mk)
